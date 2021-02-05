@@ -4,7 +4,7 @@ import pprint as pp
 
 def take_input():
     puzzle=[]
-    for i in range(9):
+    for _ in range(9):
         lis=[]
         s=input()
         for j in s:
